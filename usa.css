@@ -1,0 +1,148 @@
+body {
+    background:lightblue;
+}
+
+#logout {
+    font-size: 20px;
+    float: right;
+    margin-top: 15px;
+}
+
+
+#user_name {
+    font-family: 'Comfortaa';
+    color:darkblue;
+    font-size:30px;
+}
+
+.header img {
+    width: 80px;
+    margin-left: -15px;
+}
+
+.input_div_room_page {
+    width: 80%;
+}
+
+.header {
+    color: black;
+    font-family: 'Comfortaa';
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin-top: 80px;
+}
+
+.menu{
+    position:fixed;
+    top:0px;
+    margin-top:0px;
+    z-index:10;
+    cursor:pointer;
+    background:white;
+    width:100%;
+}
+
+
+.links{
+    font-size:20px;
+    font-family:fantasy;       
+    padding-right:25px;
+    padding-left:33px;
+    display:inline;
+}
+
+#pa{
+    background-color:lightcoral;
+    font-family: cursive;
+    text-align: center;
+}
+
+#nj{
+    background-color:cornsilk;
+    font-family: cursive;
+    text-align: center;
+}
+
+#ny{
+    background-color:cornflowerblue;
+    font-family: cursive;
+    text-align: center;
+}
+
+#Hershey{
+    height:40%;
+    width:40%;
+}
+
+#Pocono{
+    height:40%;
+    width:40%;
+}
+
+#Aquarium{
+    height:40%;
+    width:40%;
+}
+
+#Zoo{
+    height:40%;
+    width:40%;
+}
+
+#Statue{
+    height:40%;
+    width:40%;
+}
+
+#Square{
+    height:40%;
+    width:40%;
+}
+
+#gj{
+    background-color:lightsalmon;
+    font-family: cursive;
+    text-align: center;
+}
+
+#tg{
+    background-color:cornsilk;
+    font-family: cursive;
+    text-align: center;
+}
+
+#br{
+    background-color:lightgreen;
+    font-family: cursive;
+    text-align: center;
+}
+
+#statue{
+    height:40%;
+    width:40%;
+}
+
+#City{
+    height:40%;
+    width:40%;
+}
+
+#snow{
+    height:40%;
+    width:40%;
+}
+
+#park{
+    height:40%;
+    width:40%;
+}
+
+#falls{
+    height:40%;
+    width:40%;
+}
+
+#m{
+    height:40%;
+    width:40%;
+}

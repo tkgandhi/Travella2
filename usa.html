@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Travella USA Page!</title>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="usa.css">
+
+</head>
+
+<body>
+    <center>
+    <ul class="menu">
+        <li class="links"><a href="#welcome">Travella</a></li>
+        <li class="links"><a href="#pa">Pennsylvania</a></li>
+        <li class="links"><a href="#nj">New Jersey</a></li>
+        <li class="links"><a href="#ny">New York</a></li>
+    </ul>
+</center>
+
+    <section id="welcome">
+        <br>
+        <div class="container">
+            <button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+            <center>
+                <h1 class="header">
+                    Travella!
+                    <sup>
+                        <img src="Travella!.png">
+                    </sup>
+                </h1>
+            </center>
+        </div>
+    </section>
+    
+    <section id="pa">
+        <br>
+        <h1>Pennsylvania</h1>
+        <br>
+        <img id="Hershey" src="Hershey.png">
+        <label>Hershey park is a family theme park located in Hershey, Pennsylvania. The park was founded in 1906 by Milton S. Hershey. With over a dozen roller coasters, and an awesome water-park, Hershey park is a great place to bring your entire family for a day (or more) of fun! Hersheypark offers great fun and value.</label>
+        <br>
+        <br>
+        <img id="Pocono" src="Pocono.jpg">
+        <label>The Pocono Mountains, is a prime place to visit any time of year. It features lush greenery, forested peaks, picturesque lakes, and magnificent waterfalls. Aside from enjoying your time in nature, there are other fun things you can do, such as visiting a water park, going to a historical site, or watching a live show.</label>
+    </section>
+
+    <section id="nj">
+        <br>
+        <h1>New Jersey</h1>
+        <br>
+        <img id="Aquarium" src="Aquarium.jpg">
+        <label>The Adventure Aquarium, is a for-profit educational entertainment attraction operated in Camden. Discover over 3,000 sea creatures, including sharks, rays, jellies, and more. Kids will love to walk through an ocean tunnel, explore educational and interactive exhibits, and take a behind-the-scenes aquarium tour.</label>
+        <br>
+        <br>
+        <img id="Zoo" src="zoo.jpg">
+        <label>The Cape May County Park & Zoo in Cape May Court House, provides a collection of more than 550 animals representing 250 species in 85 acres of exhibits. It's so beautiful, safe, and unique.</label>
+    </section>
+
+    <section id="ny">
+        <br>
+        <h1>New York</h1>
+        <br>
+        <img id="Statue" src="Statue.webp">
+        <label>The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in the United States.</label>
+        <br>
+        <br>
+        <img id="Square" src="Square.jpg">
+        <label>Times Square is a major commercial intersection, tourist destination, entertainment hub, and neighborhood in Midtown Manhattan, New York City.</label>
+    </section>
+
+    <script src="usa.js"></script>
+</body>
+
+</html>

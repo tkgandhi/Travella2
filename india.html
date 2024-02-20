@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Travella India Page!</title>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="usa.css">
+
+</head>
+
+<body>
+    <center>
+    <ul class="menu">
+        <li class="links"><a href="#welcome">Travella</a></li>
+        <li class="links"><a href="#gj">Gujarat</a></li>
+        <li class="links"><a href="#tg">Telangana</a></li>
+        <li class="links"><a href="#br">Bihar</a></li>
+    </ul>
+</center>
+
+    <section id="welcome">
+        <br>
+        <div class="container">
+            <button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+            <center>
+                <h1 class="header">
+                    Travella!
+                    <sup>
+                        <img src="Travella!.png">
+                    </sup>
+                </h1>
+            </center>
+        </div>
+    </section>
+    
+    <section id="gj">
+        <br>
+        <h1>Gujarat</h1>
+        <br>
+        <img id="statue" src="statue.jpeg">
+        <label>The Statue of Unity is the world's tallest statue, with a height of 182 metres, located near Kevadia in the state of Gujarat, India. It depicts Indian statesman and independence activist Sardar Vallabhbhai Patel.</label>
+        <br>
+        <br>
+        <img id="City" src="City.jpg">
+        <label>Gujarat Science City is a science education and entertainment centre located in Ahmedabad, Gujarat. It has exhibitions on science, space, energy park, life science park, planet earth, hall of science, musical fountain, thrill ride, plants, an aquarium, an aviary, and a butterfly park.</label>
+    </section>
+
+    <section id="tg">
+        <br>
+        <h1>Telangana</h1>
+        <br>
+        <img id="snow" src="snow.jpg">
+        <label>Snow World is an amusement park located in Hyderabad, Telangana, India within an area of about 2 acres. Located beside Indira Park and along the Hussain Sagar lake, the park was inaugurated on 28 January 2004.</label>
+        <br>
+        <br>
+        <img id="park" src="park.jpg">
+        <label>Lumbini Park, officially T. Anjaiah Lumbini Park, is a small public, urban park of 3 hectares adjacent to Hussain Sagar in Hyderabad, India.</label>
+    </section>
+
+    <section id="br">
+        <br>
+        <h1>Bihar</h1>
+        <br>
+        <img id="falls" src="falls.jpg">
+        <label>Kakolat Waterfall is a picturesque waterfall in Nawada district, popular with tourists due to its scenic surroundings. The falls also play a role in Hindu mythology, when according to legend an ancient king was turned into a python by a rishi's curse and lived within the falls.</label>
+        <br>
+        <br>
+        <img id="m" src="m.webp">
+        <label>Patna Museum is the state museum of the Indian state of Bihar. The artifacts from ancient India era to 1764 have now been transferred to Bihar Museum. </label>
+    </section>
+
+    <script src="usa.js"></script>
+</body>
+
+</html>

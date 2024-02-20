@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(#99ffeb 0%, #0099cc 100%);
+}
+
+#start {
+    width: 30%;
+    border-radius: 15px;
+    font-family: 'Comfortaa';
+}
+
+.logo {
+    width: 450px;
+    height: 450px;
+    margin-top: 10px;
+    border-radius: 100%;
+}

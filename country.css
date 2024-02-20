@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(#99ffeb 0%, #0099cc 100%);
+
+}
+
+#logout {
+    font-size: 20px;
+    float: right;
+    margin-top: 15px;
+}
+
+.color_white {
+    color:black;
+    font-family: 'Comfortaa';
+}
+
+#user_name {
+    font-family: 'Comfortaa';
+    color:darkblue;
+    font-size:30px;
+}
+
+.header img {
+    width: 80px;
+    margin-left: -15px;
+}
+
+.input_div_room_page {
+    width: 80%;
+}
+
+.header {
+    color: black;
+    font-family: 'Comfortaa';
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin-top: 80px;
+}
+
+#usa{
+    font-family: 'Comfortaa';
+}
+
+#india{
+    font-family: 'Comfortaa';
+}
+
+#canada{
+    font-family: 'Comfortaa';
+}
